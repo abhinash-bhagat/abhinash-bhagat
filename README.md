@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @abhinash-bhagat
-- 👀 I’m interested in Programming.
-- 🌱 I’m currently learning Python.
-- 💞️ I’m trying to improve day by day.
+- 👀 I love programming.I’m currently learning Python.
 - 📫 How to reach me? Email Me - bhagatabhinash143@gmail.com
 
 <!---
