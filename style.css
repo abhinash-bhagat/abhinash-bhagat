@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(back.jpeg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+
+.mainmenu li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 18px;
+	border:1px solid #fff;
+	transition: 1s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li .active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	width: 150;
+	height: auto;
+	float: left;
+}
+.mainmenu{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+}
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn1{
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 10px 30px;
+text-decoration: none;
+transition: 0.6s ease;
+}
+.btn2{
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 10px 30px;
+text-decoration: none;
+transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+main{
+	margin-top: 80px;
+	display: none;
+}
+.footer{
+	background-color: #192a56;
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	padding-top: 0px;
+}
+.socials a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3rem;
+	margin: 10px;
+}
+.fa-facebook{
+	position: absolute;
+	top: 65%;
+	left: 4%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.fa-facebook:hover{
+	background-color: blue;
+	color: white;
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding-top: 8px;
+}
+.fa-instagram{
+	position: absolute;
+	top: 65%;
+	left: 7%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.fa-instagram:hover{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	color: white;
+	border-radius: 50px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding-top: 8px;
+}
+.footer-right a{
+	text-decoration: none;
+	display: flex;
+	color: white;
+	font-family: sans-serif;
+}
+.footer-right h2{
+	color: white;
+}
+.footer-right #first{
+	position: absolute;
+	top: 22%;
+	left: 37%;
+	transform: translate(-50%,-50%);
+}
+.footer-right #second{
+	position: absolute;
+	top: 22%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+}
+.box1{
+	display: list-item;
+	position: absolute;
+	top: 33%;
+	left: 37%;
+	transform: translate(-50%,-50%);
+	padding-top: 5px;
+	/*list-style: square;*/
+}
+.box1 a{
+	padding-top: 7px;
+}
+.box2{
+	display: list-item;
+	position: absolute;
+	top: 33%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	padding-top: 5px;
+}
+.box2 a{
+	padding-top: 8px;
+}
+.bottom-footer p{
+	position: absolute;
+	bottom: 5%;
+	color: white;
+	left: 45%;
+}
+.bottom-footer a{
+	color: white;
+	text-decoration: none;
+}
+.bottom-footer a:hover{
+	background-color: yellow;
+	color: black;
+	font-style: italic;
+	font-size: 1.2rem;
+}
+@media screen and (max-width: 450px){
+.footer{
+	background-color: #192a56;
+	width: 450px;
+
+}	
+	.bottom-footer p{
+	text-align: left;
+	justify-content: center;
+	align-content: center;
+}
+.fa-facebook{
+	position: absolute;
+	top: 65%;
+	left: 3%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.fa-facebook:hover{
+	background-color: blue;
+	color: white;
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding-top: 8px;
+}
+.fa-instagram{
+	position: absolute;
+	top: 65%;
+	left: 8%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.fa-instagram:hover{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	color: white;
+	border-radius: 130px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding-top: 6px;
+	}
+.footer-right h2{
+	display: inline;
+	font-size: 1.3rem;
+}
+.button{
+	display: inherit;
+	word-spacing: 5px;
+	margin-top: 26px;
+}
+.btn1{
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #fff;
+	padding: 2px 5px;
+/*	margin-right: 70px;*/
+	/*margin-bottom: 50px;*/
+	float: left;
+}
+.btn2{
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid#fff;
+	padding: 2px 5px;
+	/*margin-top: 80px;*/
+	float: right;
+}
+.title h1{
+	font-size: 1.5rem;
+}
+.mainmenu li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 2px 5px;
+	border:1px solid #fff;
+	transition: 1s ease;
+}
+#first{
+	font-size: 1.1rem;
+}
+#second{
+	font-size: 1.1rem;
+}
+.footer-right{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.footer-left{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+@media (max-width: 600px){
+	.footer{
+		padding: 15px;
+	}
+	main{
+		font-size: 55px;
+	}
+}
