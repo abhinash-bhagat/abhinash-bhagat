@@ -43,7 +43,18 @@ h1,h2,h3,h4,h5,h6,p{
   color: #020202;
 } 
 
- 
+ /* Custom Font Setup */
+
+@font-face {
+  font-family: logofont;
+  src: url(font-awesome/fonts/EmberlyExtraBold.ttf);
+}
+
+.logo{
+  font-family: logofont;
+  font-weight: 600;
+  font-style: oblique;
+}
 
 /********** Template CSS ************/
 
