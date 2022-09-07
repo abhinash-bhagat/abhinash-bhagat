@@ -420,28 +420,27 @@
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
                         <div id="success"></div>
-                        <form name="sentMessage" class="contact_form" id="contactForm" novalidate="novalidate" action="#" method="POST">
+                        <form name="sentMessage" class="contact_form" id="contactForm" action="https://formspree.io/f/mkneozpr" method="POST">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
-                                    <input type="text" class="name form-control p-4" id="name" placeholder="Your Name"
+                                    <input type="text" class="name form-control p-4" id="name" name="name" placeholder="Your Name"
                                         required="required" data-validation-required-message="Please enter your name" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group col-sm-6">
-                                    <input type="email" class="email form-control p-4" id="email" placeholder="Your Email"
+                                    <input type="email" class="email form-control p-4" id="email" name="email" placeholder="Your Email"
                                         required="required" data-validation-required-message="Please enter your email" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="subject form-control p-4" id="subject" placeholder="Subject"
+                                <input type="text" class="subject form-control p-4" id="subject" name="subject" placeholder="Subject"
                                     required="required" data-validation-required-message="Please enter a subject" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="msg form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
+                                <textarea class="msg form-control py-3 px-4" rows="5" id="message" name="message" placeholder="Message"
+                                    required="required" data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
@@ -490,34 +489,8 @@
     <script src="lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        const form = document.querySelector('.contact_form')
-        function sendMsg(e){
-            e.preventDefault();
-            const name = document.querySelector('.name');
-            const email = document.querySelector('..email') ;
-            const msg = document.querySelector('.msg');
-            const subject = document.querySelector('.subject');
-        
-        //Function send Mail
-            Email.send({
-                SecureToken : "ac21717f-3247-431c-b793-a2463c1db74e",
-                To : 'mr@abhinashbhagat.com.np',
-                From : "email.value",
-                Subject : "Contact Form",
-                Body : "msg.value"
-            }).then(
-                message => alert(message)
-            );
-        }
-        
-        //add event listner submit
-        form.addEventListener('submit', sendMsg);
-
-    </script>
+    <!-- <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script> -->
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
