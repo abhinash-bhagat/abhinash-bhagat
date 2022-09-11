@@ -229,6 +229,24 @@ h1,h2,h3,h4,h5,h6,p{
   box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
  
 }
+.ser1{
+  background-color: rgba(0,0,0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+.ser2{
+  background-color: rgba(0,0,0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+.ser3{
+  background-color: rgba(0,0,0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
 /* =================== Portfolio section ==================*/
 
 
