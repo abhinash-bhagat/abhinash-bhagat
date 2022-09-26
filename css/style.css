@@ -27,7 +27,7 @@ body {
   line-height: 1.5;
   color: #000000;
   text-align: left;
-  background-image: linear-gradient(to right, rgb(241, 210, 255), rgb(198, 244, 255));
+  background-image: linear-gradient(to right, rgb(228, 191, 245), rgb(181, 231, 243));
 }
 .text-success{
   color: rgb(94, 19, 109);
@@ -105,9 +105,11 @@ h1,h2,h3,h4,h5,h6,p{
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgb(94, 19, 109);
+  color: rgb(255, 255, 255);
   font-weight: 800;
-  background-image: linear-gradient(to right, rgb(241, 210, 255), rgb(198, 244, 255));
+  background-image: linear-gradient(to right, rgb(165, 121, 185), rgb(142, 198, 212));
+  font-size: large;
+  font-style: oblique;
 }
 
 @media (max-width: 991.98px) {
@@ -272,7 +274,9 @@ h1,h2,h3,h4,h5,h6,p{
   top: 30px;
   left: 30px;
 }
-
+.ports img{
+  border: 2px solid rgb(69, 11, 128);
+}
 /* ====================== Testimonial ================*/
 
 /* ========================== Contact Us ========================*/
