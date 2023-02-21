@@ -14,6 +14,7 @@
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Abhinash Bhagat&theme=discord&no-frame=false&no-bg=true&margin-w=4)
+[![trophy](https://github-profile-trophy.vercel.app/?username=abhinash-bhagat&theme=onedark)](https://github.com/abhinash-bhagat/github-profile-trophy)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Abhinash Bhagat&icon=6&color=11)](https://visitcount.itsvg.in)
