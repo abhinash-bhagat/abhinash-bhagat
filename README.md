@@ -1,5 +1,5 @@
 # 👨 About Me:
-🔭 I'm a beginner Data Scientist progressing everyday.<br>🌱 I'm currently learning Deep Learning & Neural Networks.<br>🤝 I'm open to collaborate with any individuals or teams who can boost my knowledge.<br>💬 Ask me about Data Analysis & Data Science
+🔭 I'm an aspiring Data Scientist progressing everyday.<br>🌱 I'm currently learning Deep Learning & Neural Networks.<br>🤝 I'm open to collaborate with any individuals or teams who can boost my knowledge.<br>💬 Ask me about Data Analysis & Data Science
 
 
 ## 🌐 Socials:
