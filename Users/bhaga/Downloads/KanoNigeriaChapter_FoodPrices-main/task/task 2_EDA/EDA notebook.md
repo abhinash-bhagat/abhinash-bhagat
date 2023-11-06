@@ -1,0 +1,1 @@
+# The Jupyter Notebook of the EDA is [here](https://colab.research.google.com/drive/1g9ZwBujCACzaZ2_4Jyhp-yx2-pRF8tex#scrollTo=iu4WOLJJVS9J)
